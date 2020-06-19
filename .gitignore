@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Source : https://github.com/github/gitignore
 # Maven, Node, Python, Rails
 
@@ -15,12 +16,21 @@ buildNumber.properties
 
 # Node
 
+=======
+>>>>>>> db44a7526e8a88907e7a2cee5728ee034bc672b0
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
+=======
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+>>>>>>> db44a7526e8a88907e7a2cee5728ee034bc672b0
 
 # Runtime data
 pids
@@ -33,11 +43,19 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+<<<<<<< HEAD
+=======
+*.lcov
+>>>>>>> db44a7526e8a88907e7a2cee5728ee034bc672b0
 
 # nyc test coverage
 .nyc_output
 
+<<<<<<< HEAD
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+=======
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+>>>>>>> db44a7526e8a88907e7a2cee5728ee034bc672b0
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -56,12 +74,27 @@ jspm_packages/
 # TypeScript v1 declaration files
 typings/
 
+<<<<<<< HEAD
+=======
+# TypeScript cache
+*.tsbuildinfo
+
+>>>>>>> db44a7526e8a88907e7a2cee5728ee034bc672b0
 # Optional npm cache directory
 .npm
 
 # Optional eslint cache
 .eslintcache
 
+<<<<<<< HEAD
+=======
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+>>>>>>> db44a7526e8a88907e7a2cee5728ee034bc672b0
 # Optional REPL history
 .node_repl_history
 
@@ -71,6 +104,7 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+<<<<<<< HEAD
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
@@ -79,11 +113,33 @@ typings/
 
 # nuxt.js build output
 .nuxt
+=======
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and *not* Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+>>>>>>> db44a7526e8a88907e7a2cee5728ee034bc672b0
 
 # vuepress build output
 .vuepress/dist
 
 # Serverless directories
+<<<<<<< HEAD
 .serverless
 
 # Python
@@ -225,3 +281,15 @@ pickle-email-*.html
 
 # Ignore node_modules
 node_modules/
+=======
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+>>>>>>> db44a7526e8a88907e7a2cee5728ee034bc672b0
